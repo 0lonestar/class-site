@@ -103,6 +103,7 @@ overflow: hidden;
     position: relative;
     bottom: 3450px;
     left: 200px;
+    cursor: url(cursor-1.png), pointer;
 }
 
 .island {
@@ -125,3 +126,53 @@ overflow: hidden;
     position:relative;
     z-index: -2
 }
+
+
+
+
+
+
+.el-5 {
+    
+    position:relative;
+    z-index:3;
+    bottom:5000px;
+    left: 200px;
+    
+}
+    
+    
+.el-6 {
+    
+    position:relative;
+    z-index:3;
+    bottom:4900px;
+    left: 350px;
+}
+
+
+
+
+.bgsquare2 {
+    
+    background-color: black;
+    width: 4000px;
+    height: 3000px;
+    position:relative;
+    bottom: 3090px;
+    
+}
+
+.brutalist-footer {
+    background-color: black;
+    padding:0;
+    margin:0;
+    background-image:url(brutalist_footer.jpg);
+    position:fixed;
+    bottom:0;
+    height:100vh;
+}
+
+
+
+
