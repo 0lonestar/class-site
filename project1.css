@@ -173,6 +173,28 @@ overflow: hidden;
     height:100vh;
 }
 
+.discussion1-harrison
+{
+    font-family:sans-serif;
+    position:relative;
+    color:orangered;
+    bottom:-7000px;
+   left:20px;
+    z-index:1;
+    margin:30px;
+    width:30em;
+}
 
 
+
+.discussion1-connor{
+    
+    font-family: monospace;
+    color:darkblue;
+    position:relative;
+    bottom:-7000px;
+    z-index: 1;
+    left:100px;
+    width:30em;
+}
 
