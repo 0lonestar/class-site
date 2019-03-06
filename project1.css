@@ -189,7 +189,7 @@ overflow: hidden;
 
 .discussion1-connor{
     
-    font-family: monospace;
+    font-family: serif;
     color:darkblue;
     position:relative;
     bottom:-7000px;
@@ -198,3 +198,48 @@ overflow: hidden;
     width:30em;
 }
 
+.discussion2-harrison
+{
+    font-family:sans-serif;
+    position:relative;
+    color:orangered;
+    bottom:-9000px;
+   left:20px;
+    z-index:1;
+    margin:30px;
+    width:30em;
+}
+
+
+
+.discussion2-connor {
+    
+    font-family: serif;
+    color:darkblue;
+    position:relative;
+    bottom:-9200px ;
+    z-index:1;
+    width:30em;
+    margin:30px;
+}
+
+.scroll3{
+    
+    font-family: serif;
+    color:white;
+    position: relative;
+    bottom: -8900px;
+    z-index: 2;
+    margin: 60px;
+    
+}
+
+.scroll4{
+    
+    font-family: serif;
+    color:white;
+    position: relative;
+    z-index: 2;
+    bottom: -8800px;
+    margin: 100px;
+}
