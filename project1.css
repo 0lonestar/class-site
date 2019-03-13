@@ -1,8 +1,24 @@
-.backgroundcolor {
-    
-    background-color:azure
+.gradient {
+  background-color:white;
+    background-image: linear-gradient(white, black);
+    position: absolute;
+    width:3000px;
+    height: 1000px;
 }
 
+@font-face {
+    
+    
+    src: url(webfonts/LinotypeUnivers.ttf);
+    font-family: 'univers';
+    
+}
+
+@font-face{
+    
+    src: url(webfonts/CSTMXprmntl03_Blackletter.ttf);
+    font-family: 'cstm';
+}
 
 #name {
     font-family: "linotype univers" , sans-serif;
@@ -44,7 +60,7 @@
 }
 
 .portal {
-    background-color:blue;
+    background-color:red;
     height: 34px;
     width: 1000px;
     border-radius:100%;
@@ -55,7 +71,7 @@
 
 .circle2 {
     
-    background-color: darkblue;
+    background-color: red;
     height: 10vw;
         width: 1200px;
         height: 50px;
@@ -74,12 +90,22 @@
     border-radius: 100%;
 }
 
-.narrative{
+.identitymarqee 
+{
     
-overflow: hidden;
+    font-family: "cstm";
+    font-size: 12px;
+    position:relative;
+    z-index: -1;
+    bottom:-75px;
+}
+
+.yellowmarqee{
     
-    font-size: 95px;
-    position:absolute;
+    font-family: "univers";
+    position:relative;
+    bottom: -100px;
+    z-index: -1;
 }
 
 .brutalism1
@@ -144,13 +170,7 @@ overflow: hidden;
 }
     
     
-.el-6 {
-    
-    position:relative;
-    z-index:3;
-    bottom:4900px;
-    left: 350px;
-}
+
 
 
 
@@ -177,10 +197,10 @@ overflow: hidden;
 
 .discussion1-harrison
 {
-    font-family:sans-serif;
+    font-family: "univers";
     position:relative;
     color:orangered;
-    bottom:-7580px;
+    bottom:-8150px;
    left:20px;
     z-index:1;
     margin:30px;
@@ -191,21 +211,34 @@ overflow: hidden;
 
 .discussion1-connor{
     
-    font-family: serif;
-    color:darkblue;
+    font-family: cstm;
+    color:aliceblue;
+    font-size:20px;
     position:relative;
-    bottom:-7800px;
+    bottom:-8300px;
     z-index: 1;
     left:400px;
     width:30em;
+    
+    border-width: thick;
+    border-top-style:double;
+    border-right-style:double;
+    border-right-color: red;
+    border-left-style: double;
+    border-left-color: red;
+    border-bottom-style: double;
+    border-bottom-width: thick;
+    border-bottom-color:red;
+    border-top-color:red;
 }
 
 .discussion2-harrison
 {
-    font-family:sans-serif;
+    font-family: univers;
+    font-size: 75px;
     position:relative;
     color:orangered;
-    bottom:-9000px;
+    bottom:-9100px;
    left:20px;
     z-index:1;
     margin:30px;
@@ -216,8 +249,8 @@ overflow: hidden;
 
 .discussion2-connor {
     
-    font-family: serif;
-    color:darkblue;
+    font-family: cstm;
+    color:aliceblue;
     position:relative;
     bottom:-9200px ;
     z-index:1;
@@ -251,6 +284,38 @@ overflow: hidden;
     
     position: relative;
     z-index: 2;
-    bottom:13600px;
+    bottom:14900px;
     margin:100px;
+}
+
+.grow {
+    
+    font-family: "cstm";
+    font-size:75px;
+    color:aliceblue;
+    position:relative;
+    bottom:-9300px;
+    z-index: 1;
+    margin:50px
+}
+
+
+.artisticvoice {
+    font-family: "univers";
+    position: relative;
+    bottom: -8560px;
+    color: red;
+    z-index: 1;
+    font-size: 7em;
+    
+}
+
+.bottomrectangle{
+    
+    position: relative;
+    color: red;
+    z-index: 1;
+    bottom: 0px;
+    width:300px;
+    height:300px;
 }
